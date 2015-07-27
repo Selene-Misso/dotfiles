@@ -67,6 +67,16 @@ $ nautilus -q
 $ sudo apt install python-sphinx
 ```
 
+からインストールすると，古いバージョンが入るので，pipを使う．
+
+```
+$ sudo apt install python-pip python2.7-dev
+$ sudo pip install sphinx
+$ sudo pip install blockdiag sphinxcontrib-blockdiag
+$ sudo pip install seqdiag sphinxcontrib-seqdiag
+$ sudo pip install sphinx-autobuild
+```
+
 
 
 ## フォント
@@ -100,6 +110,13 @@ http://jikasei.me/font/genjyuu/
 
 * texlive
 
+https://github.com/scottkosty/install-tl-ubuntu
+を用いてインストール．
+
+フォンとの埋込設定．
+```
+$ kanji-config-updmap auto
+```
 
 
 -----
